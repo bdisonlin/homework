@@ -1,15 +1,15 @@
 
 def calculator (f_num,s_num,option)
-	case option
-		when 'A' then return f_num + s_num
-		when 'B' then return f_num * s_num
-		when 'C' then return f_num - s_num
-		#when 'D' 
-		#	if s_num == 0
-		#		return "check your second number!"
-		#	else
-		#return f_num / s_num						
-	end
+  case option
+    when 'A' then return f_num + s_num
+    when 'B' then return f_num * s_num
+    when 'C' then return f_num - s_num
+    when 'D' 
+      if s_num == 0
+        return "check your second number!"
+      else
+        return f_num / s_num						
+  end
 end
 
 
