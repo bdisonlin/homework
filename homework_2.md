@@ -112,5 +112,4 @@ end
 
 # ------------Main Program Starts Here ---------------------
 # 主程式只要一行即可
-game = RPS.new
-game.intro
+game = RPS.new.intro
